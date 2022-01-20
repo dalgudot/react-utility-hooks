@@ -2,7 +2,7 @@
   "name": "@dalgu/react-utility-hooks",
   "description": "Frequently used React Custom Hooks",
   "author": "KyungHwan Kim",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -23,7 +23,7 @@
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
-    "test": "tsdx test --watchAll",
+    "test": "tsdx test --watch",
     "lint": "tsdx lint",
     "prepare": "tsdx build",
     "size": "size-limit",
