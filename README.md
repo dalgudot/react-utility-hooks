@@ -21,7 +21,7 @@ yarn add @dalgu/react-utility-hooks
 
 ## Hooks provided
 
-### `useMounted()` `2022.01.20`
+### `useMounted()`
 
 The `useMounted()` hook returns true after the first rendering of the React component. This is a useful hook when you need to know the mounted state or devolop with Server Side Rendering(SSR).
 
