@@ -19,7 +19,7 @@ yarn add @dalgu/react-utility-hooks
 
 <br/>
 
-## Hooks provided
+## Usage
 
 ### `useMounted()`
 
