@@ -25,6 +25,19 @@ yarn add @dalgu/react-utility-hooks
 
 The `useMounted()` hook returns true after the first rendering of the React component. This is a useful hook when you need to know the mounted state or devolop with Server Side Rendering(SSR).
 
+```jsx
+import { useMounted } from '@dalgu/react-utility-hooks';
+
+const UtilityHooks = () => {
+  const mounted: boolean = useMounted();
+  console.log(mounted);
+
+  return <></>;
+};
+
+export default UtilityHooks;
+```
+
 <br/>
 
 ## Contact
