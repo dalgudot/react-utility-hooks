@@ -29,7 +29,7 @@ The `useMounted()` hook returns true after the first rendering of the React comp
 import { useMounted } from '@dalgu/react-utility-hooks';
 
 const UtilityHooks = () => {
-  const mounted: boolean = useMounted();
+  const mounted = useMounted();
   console.log(mounted);
 
   return <></>;
